@@ -1,3 +1,3 @@
 # travis-test
 
-Dows it work?
+Does it work?
