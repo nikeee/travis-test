@@ -3,7 +3,7 @@ solution: ./travis-test.sln
 mono:
   - latest
 install:
-  - sudo apt-get install mono-devel mono-gmcs nunit-console
+  - sudo apt-get install mono-devel mono-dmcs nunit-console
   - nuget restore ./travis-test.sln
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
